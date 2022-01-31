@@ -6,13 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Comic extends Model
 {
-    protected $fillabe = [
-
-    'title',
-    'author',
-    'relese_date',
-    'pages'
-
+    protected $fillable = [
+        'title',
+        'author',
+        'relese_date',
+        'pages'
     ];
     
 }
